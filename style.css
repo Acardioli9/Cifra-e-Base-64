@@ -1,0 +1,40 @@
+body,
+h1,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: #ffffff;
+  background: rgb(43, 43, 43);
+  font-family: "monospace";
+  background-image: url(imagens/fundo.jpg);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+label {
+  display: block;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Alike Angular";
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+span {
+  color: #19c9a3;
+}
+h3 {
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-size: 0.875rem;
+  margin-bottom: 20px;
+  color: #19c9a3;
+}
